@@ -19,8 +19,6 @@
 2 - Árvore de Yggdrasil: O Desenvolvimento
 3 - Jardim do Éden: A Conclusão
 
-# Feito os projetos, outros podem surgir como forma de
-# aprimoramento para atualizações e inovações aonde foi
-# construido.
+Feito os projetos, outros podem surgir como forma de aprimoramento para atualizações e inovações aonde foi construido.
 
 ![dec7zp0-b1f90b09-8dd0-4877-9be1-cf990bad3309](https://github.com/Nicolau-369/Legi-o/assets/160781135/50be057d-b847-4400-9637-8d3ce071402b)
