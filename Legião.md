@@ -10,7 +10,9 @@
 
 # Projetos Open-Source de novas e antigas Tecnologias para
 # ajudar aqueles que estão dispostos a se adaptar ao um novo
-# mundo que está se aproximando em vários ambitos.
+# mundo que está se aproximando em vários ambitos
+# e também apliá-los a outras áreas que começa
+# dentro da internet e ir para fora dela.
 
 # Projetos
 # 1 - Projeto Fênix: O Começo
