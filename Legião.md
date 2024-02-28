@@ -15,9 +15,9 @@
 - dentro da internet e ir para fora dela.
 
 # Projetos
-1 - Projeto Fênix: O Começo
-2 - Árvore de Yggdrasil: O Desenvolvimento
-3 - Jardim do Éden: A Conclusão
+- 1 - Projeto Fênix: O Começo
+- 2 - Árvore de Yggdrasil: O Desenvolvimento
+- 3 - Jardim do Éden: A Conclusão
 
 Feito os projetos, outros podem surgir como forma de aprimoramento para atualizações e inovações aonde foi construido.
 
