@@ -13,7 +13,7 @@
 # mundo que está se aproximando em vários ambitos.
 
 # Projetos
-# 1 - Projeto Fenix: O Começo
+# 1 - Projeto Fênix: O Começo
 # 2 - Árvore de Yggdrasil: O Desenvolvimento
 # 3 - Jardim do Éden: A Conclusão
 
