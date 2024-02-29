@@ -10,8 +10,8 @@
 
 Projetos Open-Source de novas e antigas Tecnologias para ajudar aqueles que estão dispostos a se adaptar ao um novo mundo que está se aproximando em vários ambitos e também apliá-los a outras áreas que começa dentro da internet e ir para fora dela.
 
-# Projetos https://github.com/Nicolau-369/Legi-o/blob/9a572aef8fb84e7f8cf0edc66f3e42318a5a00d3/Projeto%20F%C3%AAnix.md
-- 1 - Projeto Fênix: O Começo
+# Projetos
+- 1 - Projeto Fênix.md: O Começo
 - 2 - Árvore de Yggdrasil: O Desenvolvimento
 - 3 - Jardim do Éden: A Conclusão
 
