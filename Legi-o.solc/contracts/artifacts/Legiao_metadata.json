@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "print",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"print()": {
+					"details": "Prints Legião string"
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/HelloWorld.sol": "Legiao"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/HelloWorld.sol": {
+			"keccak256": "0x93c76a6e06fbc06f526625c6694525972f9455029c496e43b367ead0b5554bea",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7bf078ab18018c2330c71e5d32f8ca9f25934e1757976d239e647f0e02144a69",
+				"dweb:/ipfs/QmQ6wrhuLEQq58pmtcGNc8peyxkRDsJZHz3kpwYMBWDXeh"
+			]
+		}
+	},
+	"version": 1
+}
