@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.13;
+pragma solidity >=0.6.12 <0.9.0;
 
 contract MultiSigWallet {
     // Declaração dos eventos que serão emitidos através da chamada
