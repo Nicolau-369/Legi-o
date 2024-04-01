@@ -8,4 +8,4 @@ fique aqui o convite, isso é só mais um rascunho para o que pode vir, para pre
 
 - Ps: Os códigos que serão compartilhados serão simples tutoriais de códigos para elaborações de Carteiras, Contratos, Assinaturas e Transações de diferentes tipos de plataformas, novamente, são **tutoriais**.
 
-![mk7_Diagnostics_BioFeedback_to_collapsed_to_weapons_comp](https://github.com/Nicolau-369/Legi-o/assets/160781135/e33e9028-fe38-44f5-980e-c22c9713271f)
+  ![mk7_Diagnostics_BioFeedback_to_collapsed_to_weapons_comp](https://github.com/Nicolau-369/Legi-o/assets/160781135/e33e9028-fe38-44f5-980e-c22c9713271f)
