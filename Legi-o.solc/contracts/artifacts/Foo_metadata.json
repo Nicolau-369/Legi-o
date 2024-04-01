@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Legi-o/Legi-o.solc/contracts/Import=+libraries(Foo-sol).sol": "Foo"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Legi-o/Legi-o.solc/contracts/Import=+libraries(Foo-sol).sol": {
+			"keccak256": "0x4aaee18e50824715081be47ed6c9cda3bd43f95673a7c3780a9db7340280ef4b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8f9317681e35ce185b45e15e40e89cd7f0b8e05d4800f601f33a86fe203be361",
+				"dweb:/ipfs/QmaosW8NwnpWnfaTxwLeK8cu7dGLeJucEKJLb2htE488TC"
+			]
+		}
+	},
+	"version": 1
+}
