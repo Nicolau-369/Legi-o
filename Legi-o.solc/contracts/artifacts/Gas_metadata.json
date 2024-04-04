@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "forever",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "i",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Legi-o/Legi-o.solc/contracts/Limite-de-gas.sol": "Gas"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Legi-o/Legi-o.solc/contracts/Limite-de-gas.sol": {
+			"keccak256": "0xc70c6b62c2f0a2d73b8e649772c5f58c9a3c9412b2f5ee161bf6d007e43e97f5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8be54b4062ec75eb738595183cda60c21aaa1e5bbbb4e0e7dc699e3acbc1c92f",
+				"dweb:/ipfs/QmY96cvwsJ7fvyoPc7RpnspqsPAnmfer92tMUdaD6MpP7o"
+			]
+		}
+	},
+	"version": 1
+}
