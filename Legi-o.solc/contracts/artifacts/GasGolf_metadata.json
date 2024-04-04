@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "nums",
+						"type": "uint256[]"
+					}
+				],
+				"name": "sumIfEvenAndLessThan99",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "total",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Legi-o/Legi-o.solc/contracts/economia-de-gas.sol": "GasGolf"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Legi-o/Legi-o.solc/contracts/economia-de-gas.sol": {
+			"keccak256": "0xb624912f2e8e7be6f595c73c0f6d62e4584c1509c5e3403780fd150c7e12ddf5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cb8e691580856fb8de02ad1c7f6e1d456a4fd527d13cbbabdd1244e8c7b2241e",
+				"dweb:/ipfs/QmcaCb13HEZtxe11sESUSYE4DVTLe5PTy4WcFnf89UjU75"
+			]
+		}
+	},
+	"version": 1
+}
