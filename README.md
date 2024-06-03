@@ -1,7 +1,7 @@
 # Legião
   "O Futuro, criou raízes no presente!"
 
-  A ideia da criação da Legião já tem faz mais de 4 anos, com a intenção de criação de uma organização independente, para artistas (de forma geral) que não tiveram oportunidades por motivos burocráticos, financeiros, que com o passar do tempo (ainda continhua) foram muito prejudicados, por viver em um país que infelizmente só tem oportunidade por seguir as regras burocrática do sistema gasto do estado.
+  A ideia da criação da Legião já tem faz mais de 4 anos, com a intenção de criação de uma organização independente, para artistas (de forma geral) que não tiveram oportunidades por motivos burocráticos, financeiros, que com o passar do tempo (ainda continuam) foram muito prejudicados, por viver em um país que infelizmente só tem oportunidade por seguir as regras burocrática do sistema gasto do estado.
 
   Com isso veio a inspiração de criar um grupo que envolva, desenhistas, escritoras, arquitetos, matemáticos, muitos com o conhecimento de forma autodidata (com ou sem diploma), de forma técnica, corajosa e inovadora.
 
