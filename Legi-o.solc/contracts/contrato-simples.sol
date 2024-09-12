@@ -1,14 +1,14 @@
-// SPDX-License-Identifier: MIT
-pragma solidity >=0.6.12 <0.9.0;
+// SPDX-License-Identifier: GPL-3.0
+pragma solidity >=0.4.16 <0.9.0;
 
-contract TestContract {
-    uint public i;
+contract SimpleStorage {
+    uint storedData;
 
-    function callMe(uint j) public {
-        i += j;
+    function set(uint x) public {
+        storedData = x;
     }
 
-    function getData() public pure returns (bytes memory) {
-        return abi.encodeWithSignature("callMe(uint256)", 123);
+    function get() public view returns (uint) {
+        return storedData;
     }
 }
