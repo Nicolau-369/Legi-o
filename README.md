@@ -1,12 +1,13 @@
 # Legião
-  "O Futuro, criou raízes no presente!"
+  "The Future has taken root in the present!"
 
-  A ideia da criação da Legião já tem faz mais de 4 anos, com a intenção de criação de uma organização independente, para artistas (de forma geral) que não tiveram oportunidades por motivos burocráticos, financeiros, que com o passar do tempo (ainda continuam) foram muito prejudicados, por viver em um país que infelizmente só tem oportunidade por seguir as regras burocrática do sistema gasto do estado.
+The idea of ​​creating the Legion has been around for over 4 years, with the intention of creating an independent organization for artists (in general) who have not had opportunities due to bureaucratic or financial reasons, and who over time (and still do) have been greatly harmed by living in a country where, unfortunately, opportunities are only available by following the bureaucratic rules of the state's outdated system.
 
-  Com isso veio a inspiração de criar um grupo que envolva, desenhistas, escritoras, arquitetos, matemáticos, muitos com o conhecimento de forma autodidata (com ou sem diploma), de forma técnica, corajosa e inovadora.
+  With this came the inspiration to create a group that involves designers, writers, architects, mathematicians, many with self-taught knowledge (with or without a diploma), in a technical, courageous and innovative way.
 
-  Passou se 4 anos, com a evolução acelerada da Tecnologia, o principal modelo ainda sendo mantido para dar um norte para aqueles que quer chegar a algum lugar é o método S.T.E.M.(Science, Technology, Engineering and Mathematics), para começar debaixo para cima(diferente dos projetos estatais), começando com projetos tecnológicos com programadores, engenheiros, escritores, que vai depender de niveis básicos, intermediários até os avançados, para usar os recursos apresentados para criar um mundo proporcionado para aqueles que não tiveram a chance de apresentar suas habilidades que podem ajudar possíveis grandes talentos e esforçados a longo prazo para uma infraestura sólida dentro da internet e transportar para a vida real.
+  Four years have passed, with the accelerated evolution of Technology, the main model still being maintained to guide those who want to get somewhere is the S.T.E.M. method (Science, Technology, Engineering and Mathematics), to start from the bottom up (different from government projects), starting with technological projects with programmers, engineers, writers, which will depend on basic, intermediate and advanced levels, to use the resources presented to create a world provided for those who have not had the chance to present their skills that can help possible great talents and long-term efforts for a solid infrastructure within the internet and transport it to real life.
 
-  Por isso será apresentados projetos de desenvolvimento de sistemas (Existentes ou novos) sobre várias questões, que envolva a tecnologia de forma ampla, desde documentações, até sistemas que requer mais complexidade de funcionamento, por isso você está convidado a fazer parte desse mundo, por isso o nome Legião, uma equipe, grupo, refúgio, se você quer fazer parte, será bem-vindo.
+  That is why system development projects (existing or new) will be presented on various issues, involving technology in a broad way, from documentation to systems that require more complex operation, that is why you are invited to be part of this world, that is why the name Legion, a team, group, refuge, if you want to be part of it, you will be welcome.
   
-![_](https://github.com/Nicolau-369/Legi-o/assets/160781135/27201910-7c7d-4075-af44-bbc26727c5f3)
+![City night rain_](https://github.com/user-attachments/assets/f0eaa94e-ee6a-46ac-ac4b-cfefc11579d6)
+
