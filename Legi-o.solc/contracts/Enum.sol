@@ -1,8 +1,9 @@
 // SPDX-License-Identifier: MIT
+
 pragma solidity >=0.6.12 <0.9.0;
 
 contract Enum {
-    // Enum representando o status do envio
+    // Enum representing the shipping status
     enum Status {
         Pending,
         Shipped,
@@ -11,11 +12,11 @@ contract Enum {
         Canceled
     }
 
-    // O valor padrão é o primeiro elemento listado na 
-    // definição do tipo, neste caso "Pending"
+    // The default value is the first element listed in the 
+    // type definition, in this case "Pending"
     Status public status;
 
-    // Retorna uint
+    // Returns uint
     // Pending  - 0
     // Shipped  - 1
     // Accepted - 2
@@ -25,17 +26,17 @@ contract Enum {
         return status;
     }
 
-    // Atualize o status passando uint na entrada
+    // Update status by passing uint in input
     function set(Status _status) public {
         status = _status;
     }
 
-    // Você pode atualizar para um enum específico como este
+    // You can update to a specific enum like this
     function cancel() public {
         status = Status.Canceled;
     }
 
-    // delete - redefine o enum para seu primeiro valor, 0
+    // delete - resets the enum to its first value, 0
     function reset() public {
         delete status;
     }
