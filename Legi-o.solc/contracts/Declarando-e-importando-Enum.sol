@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
+
 pragma solidity >=0.6.12 <0.9.0;
-// Nosso enum foi salvo com nome de 'Declarando-e-importando-Enum.sol'
+
+// Our enum was saved with the name 'Declaring-and-importing-Enum.sol'
 
 enum Status {
     Pending,
@@ -11,6 +13,7 @@ enum Status {
 }
 
 // SPDX-License-Identifier: MIT
+
 pragma solidity >=0.6.12 <0.9.0;
 
 import "./EnumStatus.sol";
