@@ -9,6 +9,7 @@ The idea of ​​creating the Legion has been around for over 4 years, with the
 
   That is why system development projects (existing or new) will be presented on various issues, involving technology in a broad way, from documentation to systems that require more complex operation, that is why you are invited to be part of this world, that is why the name Legion, a team, group, refuge, if you want to be part of it, you will be welcome.
   
-![_ (24)](https://github.com/user-attachments/assets/98a68add-bdb2-4bc8-92e8-b6e7996ad588)
+![_ (1)](https://github.com/user-attachments/assets/13293751-65ae-4776-8efa-0789bb41cf08)
+
 
 
