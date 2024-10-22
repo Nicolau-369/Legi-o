@@ -9,5 +9,6 @@ The idea of ​​creating the Legion has been around for over 4 years, with the
 
   That is why system development projects (existing or new) will be presented on various issues, involving technology in a broad way, from documentation to systems that require more complex operation, that is why you are invited to be part of this world, that is why the name Legion, a team, group, refuge, if you want to be part of it, you will be welcome.
   
-![City night rain_](https://github.com/user-attachments/assets/f0eaa94e-ee6a-46ac-ac4b-cfefc11579d6)
+![_ (24)](https://github.com/user-attachments/assets/98a68add-bdb2-4bc8-92e8-b6e7996ad588)
+
 
