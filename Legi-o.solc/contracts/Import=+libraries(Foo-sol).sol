@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: MIT
+
 pragma solidity >=0.6.12 <0.9.0;
 
 struct Point {
@@ -8,10 +9,10 @@ struct Point {
 
 error Unauthorized(address caller);
 
-function add(uint x, uint y) pure returns (uint) {
-    return x + y;
+function add(uint x, uint y) pure  returns (uint) {
+    return  x + y;
 }
 
 contract Foo {
-    string public name = "Foo";
+    string public name = "Foo"
 }
