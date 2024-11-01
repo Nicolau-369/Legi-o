@@ -1,16 +1,17 @@
 // SPDX-License-Identifier: MIT
+
 pragma solidity >=0.6.12 <0.9.0;
 
 contract ArrayReplaceFromEnd {
     uint[] public arr;
 
-    // A remoção de um elemento da matriz cria uma lacuna vazia.
-    // Uma maneira de manter o array compacto é 
-    // mover o último elemento para o índice que foi removido.
+    // Removing an element from the array creates an empty gap.
+    // One way to keep the array compact is 
+    // move the last element to the index that was removed.
     function remove(uint index) public {
-        // Move o último elemento para o índice que foi removido
+        // Move the last element to the index that was removed
         arr[index] = arr[arr.length - 1];
-        // Remove o último elemento
+        // Remove the last element
         arr.pop();
     }
 
