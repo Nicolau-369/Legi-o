@@ -1,48 +1,49 @@
 // SPDX-License-Identifier: MIT
+
 pragma solidity >=0.6.12 <0.9.0;
 
 contract Todos {
-    // Declaração de uma struct 'Todo' dentro do contrato
+    // Declaration of a 'Todo' struct within the contract
     struct Todo {
         string text;
         bool completed;
     }
 
-    // Declaração de uma array do tipo 'Todo'
+    // Declaration of an array of type 'Todo'
     Todo[] public todos;
 
     function create(string calldata _text) public {
-        // 3 formas de inicializar uma estrutura
-        // - passando os valores '_text' e 'false' como parâmetro
+        // 3 ways to initialize a structure
+        // - passing the values ​​'_text' and 'false' as a parameter
         todos.push(Todo(_text, false));
 
-        // passando os valores nas chaves definidas
+        // passing the values ​​into the defined keys
         todos.push(Todo({text: _text, completed: false}));
 
-        // inicializando vazio e depois atualizando o valor
+        // initializing empty and then updating the value
         Todo memory todo;
         todo.text = _text;
-        // todo.completed - por padrão inicializa como false
+        // todo.completed - by default initializes to false
 
         todos.push(todo);
     }
 
-    // Solidity cria automaticamente um getter para objetos da array 'todos' então
-    // você realmente não precisa dessa função.
+    // Solidity automatically creates a getter for objects in the 'all' array then
+    // you don't really need this function.
     function get(uint _index) public view returns (string memory text, bool completed) {
         Todo storage todo = todos[_index];
         return (todo.text, todo.completed);
-        // Outra maneira de retornar os valores acima seria:
+        // Another way to return the above values ​​would be:
         // return (todos[_index].text, todos[_index].completed);
     }
 
-    // Atualizando o valor da variável text de um determinado 'todo'
+    // Updating the value of the text variable of a given 'todo'
     function updateText(uint _index, string calldata _text) public {
         Todo storage todo = todos[_index];
         todo.text = _text;
     }
 
-    // Atualizando o valor da variável completed de um determinado 'todo'
+    // Updating the value of the completed variable of a given 'todo'
     function toggleCompleted(uint _index) public {
         Todo storage todo = todos[_index];
         todo.completed = !todo.completed;
