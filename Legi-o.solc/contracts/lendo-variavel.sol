@@ -1,16 +1,17 @@
 // SPDX-License-Identifier: MIT
+
 pragma solidity >=0.6.12 <0.9.0;
 
 contract SimpleStorage {
-    // Variável de estado para armazenar um valor
+    // State variable to store a value
     uint public num;
 
-    // Você precisa enviar uma transação para poder atualizar o valor da variável num
+    // You need to send a transaction to be able to update the value of the num variable
     function set(uint _num) public {
         num = _num;
     }
 
-    // Você pode ler o valor da variável num sem precisar enviar nenhuma transação
+    // You can read the value of the variable num without having to send any transaction
     function get() public view returns (uint) {
         return num;
     }
