@@ -1,9 +1,10 @@
 // SPDX-License-Identifier: MIT
+
 pragma solidity >=0.6.12 <0.9.0;
 
 contract MultiSigWallet {
-    // Declaração dos eventos que serão emitidos através da chamada
-    // das funções pelo contrato
+    // Declaration of events that will be emitted through the call
+    // of functions per contract
     event Deposit(address indexed sender, uint amount, uint balance);
     event SubmitTransaction(
         address indexed owner,
@@ -16,13 +17,13 @@ contract MultiSigWallet {
     event RevokeConfirmation(address indexed owner, uint indexed txIndex);
     event ExecuteTransaction(address indexed owner, uint indexed txIndex);
 
-    // Array onde ficarão armazenados os endereços de carteiras
-    // dos proprietários
+    // Array where wallet addresses will be stored
+    // from the owners
     address[] public owners;
     mapping(address => bool) public isOwner;
     uint public numConfirmationsRequired;
 
-    // Estrutura de uma transação dentro do contrato
+    // Structure of a transaction within the contract
     struct Transaction {
         address to;
         uint value;
@@ -31,8 +32,8 @@ contract MultiSigWallet {
         uint numConfirmations;
     }
 
-    // Mapa que servirá de armazenamento para verificar
-    // se as transações foram confirmadas ou não
+    // Map that will serve as storage for checking
+    // whether transactions were confirmed or not
     // mapping from tx index => owner => bool
     mapping(uint => mapping(address => bool)) public isConfirmed;
 
@@ -41,43 +42,43 @@ contract MultiSigWallet {
     // Verifica se a carteira que está solicitando
     // uma transação é um proprietário
     modifier onlyOwner() {
-        require(isOwner[msg.sender], "Nao e o proprietario");
+        require(isOwner[msg.sender], "Not the owner");
         _;
     }
 
-    // Verifica se uma hash de transação existe
+    // Checks if a transaction hash exists
     modifier txExists(uint _txIndex) {
-        require(_txIndex < transactions.length, "Transacao nao existe");
+        require(_txIndex < transactions.length, "Transaction does not exist");
         _;
     }
 
-    // Verifica se a transação já foi executada
+    // Checks if the transaction has already been executed
     modifier notExecuted(uint _txIndex) {
-        require(!transactions[_txIndex].executed, "Transacao ja executada");
+        require(!transactions[_txIndex].executed, "Transaction already executed");
         _;
     }
 
-    // Verifica se a transação já foi confirmada
+    // Checks if the transaction has already been confirmed
     modifier notConfirmed(uint _txIndex) {
-        require(!isConfirmed[_txIndex][msg.sender], "Transacao ja confirmada");
+        require(!isConfirmed[_txIndex][msg.sender], "Transaction already confirmed");
         _;
     }
 
 
-    // Construtor do contrato da carteira
+    // Wallet contract builder
     constructor(address[] memory _owners, uint _numConfirmationsRequired) {
-        require(_owners.length > 0, "proprietarios necessarios");
+        require(_owners.length > 0, "owners required");
         require(
             _numConfirmationsRequired > 0 &&
                 _numConfirmationsRequired <= _owners.length,
-            "numero invalido de confirmacoes necessarias"
+            "invalid number of confirmations required"
         );
 
         for (uint i = 0; i < _owners.length; i++) {
             address owner = _owners[i];
 
-            require(owner != address(0), "proprietario invalido");
-            require(!isOwner[owner], "proprietario nao e unico");
+            require(owner != address(0), "invalid owner");
+            require(!isOwner[owner], "owner is not unique");
 
             isOwner[owner] = true;
             owners.push(owner);
@@ -90,7 +91,7 @@ contract MultiSigWallet {
         emit Deposit(msg.sender, msg.value, address(this).balance);
     }
 
-    // Função que irá enviar uma transação
+    // Function that will send a transaction
     function submitTransaction(
         address _to,
         uint _value,
@@ -111,8 +112,8 @@ contract MultiSigWallet {
         emit SubmitTransaction(msg.sender, txIndex, _to, _value, _data);
     }
 
-    // Função que irá confirmar a transação por meio do
-    // hash da transação passada por parâmetro
+    // Function that will confirm the transaction through the
+    // hash of the transaction passed by parameter
     function confirmTransaction(uint _txIndex)
         public
         onlyOwner
@@ -127,7 +128,7 @@ contract MultiSigWallet {
         emit ConfirmTransaction(msg.sender, _txIndex);
     }
 
-    // Função que irá executar a transação
+    // Function that will execute the transaction
     function executeTransaction(uint _txIndex)
         public
         onlyOwner
@@ -138,7 +139,7 @@ contract MultiSigWallet {
 
         require(
             transaction.numConfirmations >= numConfirmationsRequired,
-            "Nao pode executar a transacao"
+            "Cannot execute the transaction"
         );
 
         transaction.executed = true;
@@ -146,13 +147,13 @@ contract MultiSigWallet {
         (bool success, ) = transaction.to.call{value: transaction.value}(
             transaction.data
         );
-        require(success, "Transacao falhou");
+        require(success, "Transaction failed");
 
         emit ExecuteTransaction(msg.sender, _txIndex);
     }
 
-    // Função que irá revogar a aprovação de uma transação
-    // através do hash passado por parâmetro
+    // Function that will revoke approval of a transaction
+    // through the hash passed as a parameter
     function revokeConfirmation(uint _txIndex)
         public
         onlyOwner
@@ -161,7 +162,7 @@ contract MultiSigWallet {
     {
         Transaction storage transaction = transactions[_txIndex];
 
-        require(isConfirmed[_txIndex][msg.sender], "Transacao nao confirmada");
+        require(isConfirmed[_txIndex][msg.sender], "Transaction not confirmed");
 
         transaction.numConfirmations -= 1;
         isConfirmed[_txIndex][msg.sender] = false;
@@ -169,17 +170,17 @@ contract MultiSigWallet {
         emit RevokeConfirmation(msg.sender, _txIndex);
     }
 
-    // Retorna a lista de proprietários da carteira
+    // Returns the list of wallet owners
     function getOwners() public view returns (address[] memory) {
         return owners;
     }
 
-    // Retorna a quantidade de transações existentes
+    // Returns the number of existing transactions
     function getTransactionCount() public view returns (uint) {
         return transactions.length;
     }
 
-    // Retorna uma transação através do hash passado por parâmetro
+    // Returns a transaction using the hash passed as a parameter
     function getTransaction(uint _txIndex)
         public
         view
